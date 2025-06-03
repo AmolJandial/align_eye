@@ -9,6 +9,7 @@
      - app_colors.dart - contains all the hex colors used in the app
      - app_text_themes - contains all the text styles used
      - app_theme - contains ThemeData alongside various WidgetThemeData
+     - app_borders - contains all shapes/border styles
    - Widgets (Contains all shared widgets)
 
 2. features

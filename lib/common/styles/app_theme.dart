@@ -7,6 +7,11 @@ abstract class AppTheme {
   static final appTheme = ThemeData(
     scaffoldBackgroundColor: AppColors.backgroundColor,
     textSelectionTheme: const TextSelectionThemeData(cursorColor: AppColors.primaryColor),
+    navigationBarTheme: const NavigationBarThemeData(
+      elevation: 2,
+      indicatorColor: Colors.transparent,
+      labelBehavior: NavigationDestinationLabelBehavior.alwaysHide,
+    ),
     appBarTheme: const AppBarTheme(
       elevation: 0,
       scrolledUnderElevation: 0,

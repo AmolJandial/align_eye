@@ -22,4 +22,11 @@ abstract class AppStrings {
   static const uploadImage = 'Upload Image';
   static const birthDay = 'BirthDay';
   static const gender = 'Gender';
+
+  //dashboard Strings
+  static const myDevice = 'My Device';
+  static const discover = 'Discover';
+  static const arogyam = 'Arogyam';
+  static const together = 'Together';
+  static const menu = 'Menu';
 }

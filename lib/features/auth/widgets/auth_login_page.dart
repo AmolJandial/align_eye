@@ -1,6 +1,6 @@
 import 'package:align_eye/common/styles/app_text_themes.dart';
 import 'package:align_eye/features/auth/screens/auth_forget_password_screen.dart';
-import 'package:align_eye/features/home/screens/home_screen.dart';
+import 'package:align_eye/dashboard_screen.dart';
 import 'package:align_eye/utils/app_strings.dart';
 import 'package:align_eye/utils/extensions.dart';
 import 'package:flutter/material.dart';
@@ -31,7 +31,9 @@ class _AuthLoginPageState extends State<AuthLoginPage> {
               width: context.width * 0.6,
               child: ElevatedButton(
                 onPressed: () {
-                  Navigator.of(context).push(MaterialPageRoute(builder: (_) => const HomeScreen()));
+                  Navigator.of(
+                    context,
+                  ).push(MaterialPageRoute(builder: (_) => const DashboardScreen()));
                 },
                 child: const Text(AppStrings.signIn),
               ),
